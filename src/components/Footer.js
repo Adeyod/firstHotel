@@ -1,34 +1,34 @@
-import React from "react";
-import { FaTwitter, FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { GiRotaryPhone } from "react-icons/gi";
-import { AiOutlineMail } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { FaTwitter, FaFacebook, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { GiRotaryPhone } from 'react-icons/gi';
+import { AiOutlineMail } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const SOCIALS = [
     {
       id: 1,
-      link: "https://www.twitter.com",
+      link: 'https://www.twitter.com',
       icon: <FaTwitter />,
     },
     {
       id: 2,
-      link: "https://www.facebook.com",
+      link: 'https://www.facebook.com',
       icon: <FaFacebook />,
     },
     {
       id: 3,
-      link: "https://www.linkedin.com",
+      link: 'https://www.linkedin.com',
       icon: <FaLinkedin />,
     },
     {
       id: 4,
-      link: "https://wa.me/+2348100987235",
+      link: 'https://wa.me/+2348100987235',
       icon: <FaWhatsapp />,
     },
     {
       id: 5,
-      link: "mandanahotels@gmail.com",
+      link: 'mandanahotels@gmail.com',
       icon: <AiOutlineMail />,
     },
   ];
@@ -36,15 +36,15 @@ const Footer = () => {
   const Facilities = [
     {
       id: 1,
-      name: "Night Club",
+      name: 'Night Club',
     },
     {
       id: 2,
-      name: "Outdoor Pool",
+      name: 'Outdoor Pool',
     },
     {
       id: 3,
-      name: "Good Security",
+      name: 'Good Security',
     },
   ];
   return (
