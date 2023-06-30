@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link, Route } from "react-router-dom";
-import { BiMenuAltRight } from "react-icons/bi";
-import { X } from "lucide-react";
-import Slider from "./Slider";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { BiMenuAltRight } from 'react-icons/bi';
+import { X } from 'lucide-react';
+import Slider from './Slider';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

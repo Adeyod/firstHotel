@@ -1,36 +1,36 @@
-import React from "react";
-import "react-slideshow-image/dist/styles.css";
-import { Fade, Slide } from "react-slideshow-image";
+import React from 'react';
+import 'react-slideshow-image/dist/styles.css';
+import { Fade } from 'react-slideshow-image';
 
 const Images = [
   {
     id: 1,
-    link: "/images/e1.jpg",
-    category: "QUEEN CLASSIC",
+    link: '/images/e1.jpg',
+    category: 'QUEEN CLASSIC',
   },
   {
     id: 2,
-    link: "/images/e2.jpg",
-    category: "ROYAL DOUBLE",
+    link: '/images/e2.jpg',
+    category: 'ROYAL DOUBLE',
   },
   {
     id: 3,
-    link: "/images/e4.jpg",
-    category: "SUPERIOR DOUBLE",
+    link: '/images/e4.jpg',
+    category: 'SUPERIOR DOUBLE',
   },
 ];
-const spanStyle = {
-  padding: "20px",
-  background: "#d9b271",
-  color: "#000000",
-};
+// const spanStyle = {
+//   padding: '20px',
+//   background: '#d9b271',
+//   color: '#000000',
+// };
 
 const divStyle = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  backgroundSize: "cover",
-  height: "400px",
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  backgroundSize: 'cover',
+  height: '400px',
 };
 const About = () => {
   return (

@@ -1,13 +1,13 @@
 // import "./index.css";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Reservation from "./pages/Reservation";
-import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
-import { Routes, Route, Link } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import "./index.css";
+import Home from './pages/Home';
+import About from './pages/About';
+import Reservation from './pages/Reservation';
+import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import './index.css';
 
 function App() {
   return (
